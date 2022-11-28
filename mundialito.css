@@ -1,17 +1,22 @@
 #div1 {
 height:100px ;
 width:100% ;
-background: rgb(138, 7, 2);
-
+background: rgb(15, 73, 112);
+border: 3px solid black;
 }
 
 #name {
-
-    text-align: center;
-    padding-top: 30px;
+    color: white;
+position: absolute;
+top: 20px;
+    left: 41%;
+    
     
 }
-img {
-    width: 90px;
+#logo {
+
     height: 90px;
+    width: 90px;
+    
 }
+
