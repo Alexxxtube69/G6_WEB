@@ -11,4 +11,7 @@ background: rgb(138, 7, 2);
     padding-top: 30px;
     
 }
-
+img {
+    width: 90px;
+    height: 90px;
+}
