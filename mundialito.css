@@ -23,7 +23,13 @@ border: 3px solid black;
 
     height: 90px;
     width: 90px;
+    float: left;
     
+}
+#fifaLogo {
+    height: 90px;
+    width: 130px;
+    float: right;
 }
 body {
     background-image: url("wallpaper.jpg");
