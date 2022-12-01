@@ -9,7 +9,22 @@ width:100% ;
 background: rgb(99, 14, 14);
 border: 3px solid black;
 }
-
+.centre {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.columna1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+.columna2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
 #name {
     color: white;
     position: absolute;
@@ -33,7 +48,7 @@ border: 3px solid black;
 }
 body {
     background-image: url("wallpaper.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
 }
-
+h2 {text-align: center;font-family: Qatar-2022;}
