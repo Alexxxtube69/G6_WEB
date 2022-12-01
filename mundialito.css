@@ -1,39 +1,97 @@
 @font-face {
+
     font-family: Qatar-2022;
     src: url(Qatar2022Arabic-Bold.ttf);
+
 }
 
-#div1 {
+
+#div1
+ {
+
 height:100px ;
 width:100% ;
 background: rgb(99, 14, 14);
 border: 3px solid black;
+
 }
 
-#name {
+
+#name 
+{
+
     color: white;
     position: absolute;
     top: 30px;
     left: 41%;
     font-family: Qatar-2022;
     
-    
 }
-#logo {
+
+
+#logo  
+{
+
 
     height: 90px;
     width: 90px;
     float: left;
     
+
 }
-#fifaLogo {
+
+
+#fifaLogo 
+{
+
     height: 90px;
     width: 130px;
     float: right;
+
+
 }
-body {
+
+
+body 
+
+{
+
+
     background-image: url("wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+
+
+}
+
+.peuDePagina 
+
+{
+
+    position: relative;
+    display: flex;
+    height:50px ;
+    width:100% ;
+    background: rgb(99, 14, 14);
+    border: 3px solid black;
+    margin-top: 45%;
+    
+}
+
+
+
+p 
+{
+    padding: 20px auto auto auto;
+    color: white;
+    font-size: medium;
+    font-family: Qatar-2022;
+}
+
+#logop {
+
+    height: 45px;
+    width: 45px;
+    float: left;
 }
 
