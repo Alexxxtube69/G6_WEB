@@ -1,17 +1,19 @@
-const axios = require('axios');
-
+const url = 'https://odds.p.rapidapi.com/v4/sports?all=true';
 const options = {
-  method: 'GET',
-  url: 'https://api-football-v1.p.rapidapi.com/v3/timezone',
-  headers: {
-    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-    'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
-  }
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '59d06f73a2mshc8e010ab39bf2ecp13de90jsn37539048267a',
+		'X-RapidAPI-Host': 'odds.p.rapidapi.com'
+	}
 };
-
+fetchFulbo()
+async function fetchFulbo() {
 try {
-	const response = await axios.request(options);
-	console.log(response.data);
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
 } catch (error) {
 	console.error(error);
 }
+}
+

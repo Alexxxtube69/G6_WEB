@@ -8,9 +8,10 @@
 body 
 {
 
-
+    position: sticky;
     background-image: url("532836.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
     background-position-y: top;
     background-position-x: center;
@@ -72,7 +73,7 @@ border: 3px solid black;
 }
 
 
-#logo  
+.logo  
 {
 
 
@@ -82,13 +83,32 @@ border: 3px solid black;
     
 
 }
+.logoPlus  
+{
 
 
-#fifaLogo 
+    height: 90px;
+    width: 180px;
+    float: left;
+    
+
+}
+
+
+.fifaLogo 
 {
 
     height: 90px;
     width: 130px;
+    float: right;
+
+
+}
+.uefaLogo 
+{
+
+    height: 90px;
+    width: 100px;
     float: right;
 
 
@@ -99,7 +119,7 @@ border: 3px solid black;
 
 {
 
-    position: absolute;
+    position: sticky;
     bottom: 0%;
     height:50px ;
     width:100% ;
