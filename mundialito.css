@@ -19,6 +19,7 @@ body
 
 }
 .menu {
+    position: sticky;
     background-color: white;
     color: rgb(25, 14, 99);
     height: 70px;
@@ -148,17 +149,17 @@ p
 }
 h2 {text-align: center;font-family: Qatar-2022;}
 
-#boton{
+.boton{
+    position: static;
     background-color: rgba(78, 132, 214, 0.925);
-    width: 6%;
-    height: 40%;
+    height: 50%;
     border-radius: 20px;
-    margin-top: 2%;
+    top: 40%;
     margin-left: 3%;
 
 }
 
-#funcion {
+.funcion {
 
 color: white;
 
